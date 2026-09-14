@@ -2,10 +2,10 @@ import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
-import hero1 from '../../assets/hero/Hero 1.jpg';
-import hero2 from '../../assets/hero/Hero 2.jpg';
-import hero3 from '../../assets/hero/Hero 3.jpg';
-import hero4 from '../../assets/hero/Hero 4.jpg';
+import hero1 from '../../assets/Hero/Hero 1.jpg';
+import hero2 from '../../assets/Hero/Hero 2.jpg';
+import hero3 from '../../assets/Hero/Hero 3.jpg';
+import hero4 from '../../assets/Hero/Hero 4.jpg';
 
 const heroSlides = [
   {
