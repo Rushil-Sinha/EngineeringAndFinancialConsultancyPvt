@@ -26,26 +26,14 @@
 
 .footer-brand {
   display: inline-flex;
-  flex-direction: column;
-
-  color: var(--color-white);
+  align-items: center;
 }
 
-.footer-brand-name {
-  font-size: 42px;
-  line-height: 0.9;
-  font-weight: 700;
-  letter-spacing: -2.5px;
-}
-
-.footer-brand-tagline {
-  margin-top: 8px;
-
-  font-size: 7px;
-  line-height: 1;
-  font-weight: 600;
-  letter-spacing: 1.05px;
-  white-space: nowrap;
+.footer-brand-logo {
+  display: block;
+  width: 190px;
+  height: auto;
+  object-fit: contain;
 }
 
 .footer-description {
@@ -236,9 +224,9 @@
     grid-column: 1 / -1;
   }
 
-  .footer-brand-name {
-    font-size: 38px;
-  }
+  .footer-brand-logo {
+  width: 165px;
+}
 
   .footer-bottom-container {
     width: min(100% - 40px);

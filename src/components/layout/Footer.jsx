@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from '../../assets/ABVolt_WhiteLogo.png';
 import './Footer.css';
 
 function Footer() {
@@ -13,11 +14,12 @@ function Footer() {
           <div className="footer-company">
 
             <Link to="/" className="footer-brand">
-              <span className="footer-brand-name">ABVolt</span>
-              <span className="footer-brand-tagline">
-                ENGINEERING AND FINANCIAL CONSULTANCY LTD
-              </span>
-            </Link>
+  <img
+    src={logo}
+    alt="ABVolt Engineering and Financial Consultancy Ltd"
+    className="footer-brand-logo"
+  />
+</Link>
 
             <p className="footer-description">
               Delivering integrated engineering and financial consultancy
