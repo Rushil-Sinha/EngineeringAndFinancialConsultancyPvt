@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Brand Colors */
+  --color-primary: #0B2D5B;
+  --color-primary-dark: #082342;
+  --color-blue: #0F6FB8;
+  --color-blue-light: #2E8BDA;
+  --color-blue-pale: #E6F2FB;
+
+  /* Neutrals */
+  --color-white: #FFFFFF;
+  --color-off-white: #F8FAFC;
+  --color-charcoal: #1F2937;
+  --color-gray: #64748B;
+  --color-border: #E2E8F0;
+
+  /* Status */
+  --color-success: #10B981;
+  --color-error: #EF4444;
+
+  /* Typography */
+  --font-primary: 'Inter', 'Segoe UI', Arial, sans-serif;
+
+  /* Layout */
+  --container-width: 1280px;
+  --page-padding: 32px;
+
+  /* Transitions */
+  --transition-fast: 180ms ease;
+  --transition-normal: 300ms ease;
+}
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: var(--font-primary);
+  background: var(--color-white);
+  color: var(--color-charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.site-main {
+  padding-top: 88px;
+}
+
+.home-page {
+  margin-top: -88px;
+}
